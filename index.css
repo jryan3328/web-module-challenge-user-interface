@@ -105,6 +105,7 @@ footer {
 
 footer .footer-content { 
   margin: 0 auto; 
+  width: 600px;
   /*======= create a width property. Set the value to 600px */
   
 }
@@ -123,6 +124,11 @@ footer nav {
   color: black;
   text-decoration: underline;
 */
+footer a{
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
 
 
 footer nav a:first-child {
@@ -132,8 +138,12 @@ footer nav a:first-child {
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
   color: white;
 */
+footer nav a:hover{
+  color: white;
+}
 
 footer .footer-content .copyright {
   padding: 20px 0;
+  text-align: center;
    /*======= center the text here */
 }
